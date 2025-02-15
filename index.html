@@ -71,11 +71,11 @@ button {
 }
 button:nth-child(1) {
     margin-left: -200px;
-    background: #7d2ae8;
+    background: #d70e0e;
 }
 button:nth-child(2) {
     margin-right: -200px;
-    color: #7d2ae8;
+    color: #b811d6;
 }
     </style>
 </head>
@@ -96,7 +96,7 @@ const noBtn = document.querySelector('.no-btn');
 const wrapperRect = wrapper.getBoundingClientRect();
 const noBtnRect = noBtn.getBoundingClientRect();
 yesBtn.addEventListener('click', () => {
-    question.innerHTML = 'I Love You Too :)';
+    question.innerHTML = 'I Love You Too';
 });
 noBtn.addEventListener('mouseover', () => {
     const i = Math.floor(Math.random() * (wrapperRect.width - noBtnRect.width)) + 1;
